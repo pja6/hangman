@@ -1,6 +1,6 @@
 
   dictionary=[]
-  File.readlines("dictionary.rtf").each do |line|
+  File.readlines("dictionary.txt").each do |line|
     dictionary.push(line) if line.length > 5 && line.length<12
   end
 
